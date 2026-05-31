@@ -53,7 +53,7 @@ import {
   UserOutlined,
 } from '@ant-design/icons'
 import './App.css'
-import avatarUser from '../assets/images/me.jpg'
+import avatarUser from './assets/images/me.jpg'
 
 const { Header, Sider, Content, Footer } = Layout
 const { Title, Text, Paragraph } = Typography
