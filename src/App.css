@@ -3,8 +3,8 @@
   overflow: hidden;
   border-radius: 24px;
   padding: 20px;
-  background: linear-gradient(135deg, rgba(24, 144, 255, 0.12), rgba(250, 140, 22, 0.12));
-  border: 1px solid rgba(24, 144, 255, 0.18);
+  background: linear-gradient(135deg, rgba(217, 239, 119, 0.12), rgba(238, 190, 138, 0.521));
+  border: 1px solid rgba(255, 43, 24, 0.18);
 }
 
 .hero::after {
