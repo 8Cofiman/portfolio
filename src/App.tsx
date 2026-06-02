@@ -138,7 +138,7 @@ function App() {
         <Flex justify="space-between" align="flex-start" wrap="wrap" gap={12}>
           <Space size={14} align="start">
             <Avatar
-              size={100}
+              size={150}
               src={avatarUser}
               icon={<UserOutlined />}
               style={{ background: token.colorPrimary }}
@@ -253,7 +253,6 @@ function App() {
   )
 
 
-
   // Вкладка ОПЫТ
   const renderExperience = () => (
     <Space direction="vertical" size={16} style={{ width: '100%' }}>
@@ -330,7 +329,6 @@ function App() {
       </Card>
     </Space>
   )
-
 
   
   // Вкладка НАВЫКИ
@@ -447,47 +445,47 @@ function App() {
         </Col>
       </Row>
 
-      <Card className="softShadow" title="Галерея “до/после” (зато каруселька)">
+      <Card className="softShadow" title="Дополнительные ссылочки на работы">
         <Carousel autoplay>
           <div>
             <Card className="softShadow" style={{ borderRadius: 18 }}>
-              <Title level={4} style={{ marginTop: 0 }}>До</Title>
-              <Text type="secondary">
-                “Тут компонент был, где-то… кажется…”
-              </Text>
+              <Title level={4} style={{ marginTop: 0 }}>Ещё одно портфолио на чистом React</Title>
+              <a href="https://8cofiman.github.io" target="_blank" rel="noopener noreferrer">
+                ТЫК сюда
+              </a>
               <Divider />
               <Space wrap>
-                <Tag color="volcano">хаос</Tag>
-                <Tag color="volcano">ошибки</Tag>
-                <Tag color="volcano">без комментариев</Tag>
+                <Tag color="volcano">react</Tag>
+                <Tag color="volcano">адаптивность</Tag>
+                <Tag color="volcano">стильно</Tag>
               </Space>
             </Card>
           </div>
           <div>
             <Card className="softShadow" style={{ borderRadius: 18 }}>
-              <Title level={4} style={{ marginTop: 0 }}>После</Title>
-              <Text type="secondary">
-                “Открываешь код — и душа радуется.”
-              </Text>
+              <Title level={4} style={{ marginTop: 0 }}>Чисто красивая верстка</Title>
+              <a href="https://8cofiman.github.io/Woodtech" target="_blank" rel="noopener noreferrer">
+                ТЫК сюда
+              </a>
               <Divider />
               <Space wrap>
-                <Tag color="green">комментарии</Tag>
-                <Tag color="green">оптимизация</Tag>
-                <Tag color="green">логика</Tag>
+                <Tag color="green">html</Tag>
+                <Tag color="green">css</Tag>
+                <Tag color="green">67</Tag>
               </Space>
             </Card>
           </div>
           <div>
             <Card className="softShadow" style={{ borderRadius: 18 }}>
-              <Title level={4} style={{ marginTop: 0 }}>Бонус</Title>
-              <Text type="secondary">
-                Клиент: “СПС” — Разработчик: ПЖ”
-              </Text>
+              <Title level={4} style={{ marginTop: 0 }}>Канбан-доска</Title>
+              <a href="https://8cofiman.github.io/KanbanBoard_v2" target="_blank" rel="noopener noreferrer">
+                ТЫК сюда
+              </a>
               <Divider />
               <Space wrap>
-                <Tag color="blue">67</Tag>
-                <Tag color="gold">энергетик</Tag>
-                <Tag color="purple">уважение</Tag>
+                <Tag color="blue">можно юзать</Tag>
+                <Tag color="gold">адаптивность</Tag>
+                <Tag color="purple">js</Tag>
               </Space>
             </Card>
           </div>
@@ -496,6 +494,7 @@ function App() {
     </Space>
   )
 
+  
   // Вкладка КОНТАКТЫ
   const renderContact = () => (
     <Space direction="vertical" size={16} style={{ width: '100%' }}>
